@@ -32,3 +32,37 @@ const myFunction = function() {
 }
 
 console.log(typeof anotherId);
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (every stack memory use primitive datatypes)
+// Heap (every heap memory use non- primitive datatypes)
+
+let myYoutubename = "malikcdotcom"
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "malick@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
+
+
